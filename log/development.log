@@ -1,0 +1,84 @@
+Started GET "/" for ::1 at 2023-02-19 11:36:14 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/jwrf/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/jwrf/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.9ms | Allocations: 586)
+Completed 200 OK in 8ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 4652)
+
+
+Started GET "/" for ::1 at 2023-02-19 12:17:46 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/jwrf/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/jwrf/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.0ms | Allocations: 478)
+Completed 200 OK in 5ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 3324)
+
+
+Started GET "/" for ::1 at 2023-02-19 12:17:50 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/jwrf/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/jwrf/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.6ms | Allocations: 281)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 967)
+
+
+Started GET "/" for ::1 at 2023-02-19 12:18:45 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/jwrf/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/jwrf/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 16)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 245)
+
+
+Started GET "/" for ::1 at 2023-02-19 12:18:47 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/jwrf/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/jwrf/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 16)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 217)
+
+
+Started GET "/" for ::1 at 2023-02-19 12:19:08 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/jwrf/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/jwrf/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 15)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/" for ::1 at 2023-02-19 12:20:41 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/jwrf/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/jwrf/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.6ms | Allocations: 478)
+Completed 200 OK in 4ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 3323)
+
+
+  [1m[35m (9.8ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  [1m[35m (7.8ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('8149652876581068615', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreatePages (20230219122354)
+  [1m[35m (7.9ms)[0m  [1m[35mCREATE TABLE `pages` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20230219122354')[0m
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2023-02-19 12:24:15.515764', '2023-02-19 12:24:15.515764')[0m
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('8149652876581068615')[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/" for ::1 at 2023-02-19 19:49:16 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/jwrf/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/jwrf/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.2ms | Allocations: 478)
+Completed 200 OK in 6ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 3335)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-02-19 19:57:56 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_in"):
+  
+Started GET "/" for ::1 at 2023-02-19 19:57:59 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/jwrf/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/jwrf/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.4ms | Allocations: 289)
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 2165)
+
+
